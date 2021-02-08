@@ -14,6 +14,7 @@
 		B4EFA4E525D186D60011E1FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4EFA4E425D186D60011E1FE /* Assets.xcassets */; };
 		B4EFA4E825D186D60011E1FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4EFA4E625D186D60011E1FE /* LaunchScreen.storyboard */; };
 		B4EFA4F125D18D640011E1FE /* HeroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EFA4F025D18D640011E1FE /* HeroViewController.swift */; };
+		B4EFA4F525D1930C0011E1FE /* HeroStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EFA4F425D1930C0011E1FE /* HeroStats.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B4EFA4E725D186D60011E1FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4EFA4E925D186D60011E1FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4EFA4F025D18D640011E1FE /* HeroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroViewController.swift; sourceTree = "<group>"; };
+		B4EFA4F425D1930C0011E1FE /* HeroStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroStats.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				B4EFA4E425D186D60011E1FE /* Assets.xcassets */,
 				B4EFA4E625D186D60011E1FE /* LaunchScreen.storyboard */,
 				B4EFA4E925D186D60011E1FE /* Info.plist */,
+				B4EFA4F425D1930C0011E1FE /* HeroStats.swift */,
 			);
 			path = FetchData;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 				B4EFA4F125D18D640011E1FE /* HeroViewController.swift in Sources */,
 				B4EFA4E025D186D30011E1FE /* ViewController.swift in Sources */,
 				B4EFA4DC25D186D30011E1FE /* AppDelegate.swift in Sources */,
+				B4EFA4F525D1930C0011E1FE /* HeroStats.swift in Sources */,
 				B4EFA4DE25D186D30011E1FE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

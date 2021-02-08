@@ -26,6 +26,18 @@ class ViewController: UIViewController {
         tableView.dataSource = self
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "details", sender: self)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let destination = segue.destination as? HeroViewController {
+            destination.hero = heroes[(tableView.indexPathForSelectedRow?.row)!]
+        }
+    }
+    
+    
+    
     
     func downloadData(completed: @escaping () -> ()) {
         
@@ -43,11 +55,8 @@ class ViewController: UIViewController {
             }
         }.resume()
     }
-    
-    
-
-
 }
+
 
 extension ViewController: UITableViewDelegate, UITableViewDataSource {
     
@@ -60,7 +69,6 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         cell.textLabel?.text = heroes[indexPath.row].localized_name.capitalized
         return cell
     }
-    
     
 }
 

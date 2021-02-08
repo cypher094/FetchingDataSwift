@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="FwH-9C-aAT">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -35,7 +36,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="uD0-YT-dba" id="oVI-nT-COB"/>
-                        <segue destination="k8H-iD-pB8" kind="show" id="hVe-S2-iA2"/>
+                        <segue destination="k8H-iD-pB8" kind="show" identifier="details" id="hVe-S2-iA2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -65,7 +66,7 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jGo-pt-O9Q">
                                                 <rect key="frame" x="0.0" y="0.0" width="382" height="30"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="50" id="kOO-1e-Fyh"/>
+                                                    <constraint firstAttribute="height" constant="30" id="SVe-pl-kw1"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="25"/>
                                                 <nil key="textColor"/>

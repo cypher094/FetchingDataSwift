@@ -52,46 +52,55 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="pai-5d-iX1">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="654"/>
+                                <rect key="frame" x="0.0" y="0.0" width="406" height="862"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YHU-bK-GQH">
-                                        <rect key="frame" x="16" y="96" width="382" height="374"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YHU-bK-GQH">
+                                        <rect key="frame" x="16" y="96" width="374" height="374"/>
                                         <constraints>
+                                            <constraint firstAttribute="width" constant="374" id="M6h-9D-cdX"/>
                                             <constraint firstAttribute="height" constant="374" id="Qzf-Cv-PPc"/>
                                         </constraints>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="xn4-k8-XAh">
-                                        <rect key="frame" x="16" y="478" width="382" height="168"/>
+                                        <rect key="frame" x="16" y="478" width="374" height="264"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jGo-pt-O9Q">
-                                                <rect key="frame" x="0.0" y="0.0" width="382" height="30"/>
+                                                <rect key="frame" x="8" y="8" width="358" height="50"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="30" id="SVe-pl-kw1"/>
+                                                    <constraint firstAttribute="height" constant="50" id="JzS-EY-KCu"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="25"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Attribute" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="otH-qA-fWz">
-                                                <rect key="frame" x="0.0" y="46" width="382" height="30"/>
+                                                <rect key="frame" x="8" y="74" width="358" height="50"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="25"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Attack" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vh4-MX-gd3">
-                                                <rect key="frame" x="0.0" y="92" width="382" height="30"/>
+                                                <rect key="frame" x="8" y="140" width="358" height="50"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="25"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Legs" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p00-Xj-tcv">
-                                                <rect key="frame" x="0.0" y="138" width="382" height="30"/>
+                                                <rect key="frame" x="8" y="206" width="358" height="50"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="25"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
+                                        <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
                                     </stackView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="grs-Bv-pcN">
+                                        <rect key="frame" x="16" y="750" width="374" height="104"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="104" id="D95-Ad-Oh2"/>
+                                        </constraints>
+                                    </view>
                                 </subviews>
                                 <edgeInsets key="layoutMargins" top="8" left="16" bottom="8" right="16"/>
                             </stackView>
